@@ -1,0 +1,39 @@
+<view class='container'>
+  <view class='logo-view'>
+    <image class='logo-image' src='/images/logo.png'></image>
+  </view>
+  <view class='form-view'>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class='input-view'>
+        <input id='username' name="username" class='input' placeholder="学号" placeholder-style=''></input>
+      </view>
+      <view class="line"></view>
+      <view class='input-view'>
+        <input password id='password' name="password" class='input' placeholder="密码" placeholder-style=''></input>
+      </view>
+      <view class="line"></view>
+      <view class='input-view'>
+        <input id='checkcode' name="checkcode" class='input' placeholder="验证码"></input>
+        <view wx:if='{{flag}}'>
+          <image src='/images/loading.gif' class='loading'></image>
+        </view>
+        <view wx:else>
+          <image src='{{codeUrl}}' class='checkcode'></image>
+        </view>
+      </view>
+      <view class="line"></view>
+      <view class='text'>
+        <text>教务管理系统一致,</text>
+        <text>默认密码为学号</text>
+      </view>
+      <view class='button'>
+        <!-- <button plain='true' formType="submit">
+          <text class='btn-text'>绑定</text>
+        </button> -->
+        <button plain='true' formType="submit" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+          <text class='btn-text'>绑定</text>
+        </button>
+      </view>
+    </form>
+  </view>
+</view>

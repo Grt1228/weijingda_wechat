@@ -1,0 +1,98 @@
+
+page{
+  /**
+  background-color: #f0f5f5;
+  **/
+  background-color: #f2f2ff;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.top-one{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding-left: 40rpx;
+}
+.top-title{
+  font-size: 35rpx;
+  color: #33ccff;
+}
+.top-info{
+  font-size: 35rpx;
+}
+
+.week{
+  display: flex;
+  flex-direction: row;
+  margin-top:10rpx;
+  padding-left: 0rpx;
+  background-color: #ffffff;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.one-week{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35rpx;
+}
+.week-text{
+  font-size: 35rpx;
+}
+.week-text-color{
+  font-size: 35rpx;
+  color: #33ccff;
+}
+.line { 
+ width: 100%; 
+ height: 1px; 
+ background-color: #cccccc; 
+ margin-top: 1px; 
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.one-course{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 15rpx;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.one-course-info{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+}
+.curse-index{
+  font-size: 30rpx;
+  margin-bottom: 13rpx;
+  color: #33ccff;
+}
+.course-info{
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+}
+.info-text{
+  font-size: 24rpx;
+  font-weight: 300;
+}
+.info{
+  margin-bottom: 6rpx;
+  text-align: center;
+}

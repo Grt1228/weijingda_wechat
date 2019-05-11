@@ -1,0 +1,6 @@
+<template name="ingTemplate">
+  <view class='body'>
+    <image src='/images/index-icon/dev.png' class='img'></image>
+    <text class='text'>开发中</text>
+  </view>
+</template>

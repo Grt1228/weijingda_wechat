@@ -1,0 +1,70 @@
+page{
+  background-color: #eaecef;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f7f5;
+}
+.testIcon{
+  width: 120rpx;
+  height: 120rpx;
+  padding: 0 315rpx;
+}
+.testInfo{
+  padding:40rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.testYear{
+  text-align: center;
+  font-size: 28rpx;
+  padding-bottom: 20rpx;
+}
+.noTest{
+  margin-top: 50rpx;
+  margin-left: 250rpx;
+}
+.noTest-text{
+  font-size: 30rpx;
+  text-align: center;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 25rpx;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  padding-left: 20rpx;
+}
+.testName{
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+  padding-left: 15rpx;
+  font-size: 26rpx;
+  font-weight: 800;
+}
+.testLocation{
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+  padding-left: 15rpx;
+  font-size: 26rpx;
+  font-weight: 800;
+}
+.testTime{
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+  padding-left: 15rpx;
+  font-size: 26rpx;
+  font-weight: 800;
+}

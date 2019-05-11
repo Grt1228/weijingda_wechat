@@ -1,0 +1,26 @@
+<view class='containner'>
+  <view class='swiper-view'>
+    <!-- 获取失败时显示默认图片 -->
+    <swiper indicator-dots='true' autoplay='true' interval='5000'>
+      <block wx:for="{{swiperImage}}" wx:for-item="item" wx:key="*this">
+        <swiper-item class='swiper-item'>
+          <image src='{{item.imageUrl}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='hd' style='transform:rotateZ({{angle}}deg);'>
+    <image class='wave' src='/images/index-icon/wave.png' mode='aspectFill'></image>
+    <image class='wave wave-bg' src='/images/index-icon/wave.png' mode='aspectFill'></image>
+  </view>
+  <view class='row-icon'>
+    <block wx:for="{{list}}" wx:for-item="item" wx:key="{{item.id}}">
+      <!-- ...展开平铺data数据对象 -->
+      <view class='iocn' bindtap="kindToggle" id="{{item.id}}" data-level="{{item.level}}">
+        <image src='/images/index-icon/{{item.id}}.png' class='icon-img'></image>
+        <text class='icon-text'>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+  <!--<image src='/images/crab.png' class='foot-img'></image> -->
+</view>

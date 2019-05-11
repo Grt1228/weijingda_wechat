@@ -1,0 +1,39 @@
+page{
+  background-color: #D2B48C;
+}
+.form-view{
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 200rpx 40rpx;
+}.form{
+  display: flex;
+  flex-direction: column;
+}
+.eduName{
+  margin-left: 128rpx;
+  margin-top: 40rpx;
+}
+.eduName-text{
+  font-size: 50rpx;
+  color: #D2B48C;
+}
+.input-studentid{
+  margin: 40rpx 60rpx 40rpx 60rpx;
+}
+.input-password{
+  margin: 60rpx 60rpx 40rpx 60rpx;
+}
+.input{
+  height: 80rpx;
+}
+.text{
+  text-align: center;
+  font-size: 28rpx;
+}
+.button{
+  background-color: #D2B48C;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+  width: 300rpx;
+  margin-left: 185rpx;
+}

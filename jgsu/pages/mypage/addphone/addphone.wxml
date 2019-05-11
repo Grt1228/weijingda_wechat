@@ -1,0 +1,27 @@
+<view class='container'>
+  <view class='head'>
+    <image class='head-img' src='/images/index-icon/new-4.png'></image>
+    <text class='head-text'>感谢提供公共服务电话，你所提供的电话审核通过后将会被录入系统通讯录。公共通讯录服务井大师生。</text>
+  </view>
+  <view class='body'>
+    <form bindsubmit="formSubmit">
+      <view class='body-input-view'>
+        <text class='body-text'>电话名称</text>
+        <input class='body-input' name='phoneName' placeholder-style='font-size: 24rpx;font-weight: 800;' show-confirm-bar='true'></input>
+      </view>
+      <view class='body-input-view'>
+        <text class='body-text'>联系方式</text>
+        <input class='body-input' name='phoneNumber' placeholder-style='font-size: 24rpx;font-weight: 800;'></input>
+      </view>
+      <view class='body-input-view'>
+        <text class='body-text'>电话级别</text>
+        <picker value="{{index}}" range="{{array}}" name='phoneLevel'>
+          <view>
+            <text class='picker'>{{array[index]}}</text>
+          </view>
+        </picker>
+      </view>
+      <button class='body-button' formType="submit">提交</button>
+    </form>
+  </view>
+</view>

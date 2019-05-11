@@ -1,0 +1,15 @@
+.body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 350rpx;
+  margin-left: 260rpx;
+}
+.img{
+  width: 250rpx;
+  height: 150rpx;
+}
+.text{
+  font-size: 30rpx;
+  font-weight: bold;
+  padding-left: 68rpx;
+}

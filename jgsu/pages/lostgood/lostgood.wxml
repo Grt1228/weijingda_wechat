@@ -1,0 +1,11 @@
+<!-- <import src='/pages/ingTemplate/ingTemplate.wxml' />
+<template is='ingTemplate' /> 
+
+<brickLayout 
+dataSet="{{dataSet}}"  
+option="{{brick_option}}" 
+bind:tapCard="tapCard" 
+bind:tapLike="handleLike" 
+bind:tapUser="handleUserEvent"
+bind:onCardExpanded="handleExpand"
+/> -->

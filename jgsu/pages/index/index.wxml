@@ -1,0 +1,4 @@
+<view class="container">
+  <text>微井大+，开发ing</text>
+  <image src='/images/index.jpg' class='index-img'></image>
+</view>

@@ -1,0 +1,80 @@
+/* pages/cet/cet.wxss */
+.container{
+  
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+}
+.head-img{
+  width: 200rpx;
+  height: 200rpx;
+  padding: 0 280rpx;
+}
+.head-text{
+  font-size: 35rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.form-body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50rpx;
+}
+.input-one-row{
+  margin-top: 15rpx;
+}
+.input-text{
+  font-size: 28rpx;
+  padding-left: 40rpx;
+  padding-right: 50rpx;
+  padding-top: 25rpx
+}
+.input-code-text{
+  font-size: 28rpx;
+  padding-left: 40rpx;
+  padding-right: 50rpx;
+  padding-top: 25rpx;
+  width: 100rpx;
+}
+.input{
+  height: 30rpx;
+  padding-top: 18rpx;
+}
+.input-code{
+  height: 30rpx;
+  padding-top: 18rpx;
+}
+.input-one-row{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+}
+.input-code-img{
+  height: 80rpx;
+  width: 160rpx;
+  margin-right: 50rpx;
+}
+.form-btn{
+ width: 40%; 
+ margin-top: 15px; 
+ color: #7acfa6;
+}
+.btn-view{
+  background-color: #ffffff;
+}
+.line { 
+ width: 100%; 
+ height: 1px; 
+ background-color: #eff3f3; 
+ margin-top: 1px; 
+} 
+.loading{
+  height: 80rpx;
+  width: 80rpx;
+}

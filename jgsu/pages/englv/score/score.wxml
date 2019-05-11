@@ -1,0 +1,60 @@
+<view class='container'>
+  <view class='body'>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>姓名</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.studentName}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>考号</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.cetNumber}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>学校</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.university}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>听力</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.cet4ListenScore}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>阅读</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.cet4ReadScore}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>写作</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.cet4WriteScore}}</text>
+      </view>
+    </view>
+    <view class='one-row'>
+      <view class='key-view'>
+        <text class='key'>总分</text>
+      </view>
+      <view class='value-view'>
+        <text class='value'>{{scoreObj.cet4Score}}</text>
+      </view>
+    </view>
+  </view>
+</view>

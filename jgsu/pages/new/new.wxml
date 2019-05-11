@@ -1,0 +1,21 @@
+<view>
+  <block wx:for="{{newData}}" wx:for-item="item" wx:key="*this">
+    <!-- ...展开平铺data数据对象 -->
+    <view class='container'>
+      <view class='head'>
+        <view class='head-icon'>
+          <image src='/images/new/weijingda.png' class='img'></image>
+        </view>
+        <view class='head-info'>
+          <text class='creater'>{{item.newCreater}}</text>
+          <text class='time'>{{item.newDate}}</text>
+        </view>
+      </view>
+      <view class='body'>
+        <text class='body-title'>{{item.newTitle}}</text>
+        <text class='body-detail'>{{item.newDetail}}</text>
+      </view>
+    </view>
+  </block>
+
+</view>

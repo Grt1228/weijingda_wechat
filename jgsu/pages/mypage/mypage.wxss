@@ -1,0 +1,61 @@
+page{
+  background-color: #f8f8f8;
+}
+.container{
+  display: flex;
+  flex-direction: column
+}
+
+.user-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+}
+.userIcon-view{
+  padding: 0 300rpx;
+  padding-top: 30rpx;
+}
+.userIcon{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.userName-view{
+  margin-top: 40rpx;
+  text-align: center;
+}
+.userName{
+  font-size: 35rpx;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 50rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+}
+.body-head-text{
+  font-weight: 50;
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+}
+.body-text-view{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+}
+.body-text{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.infoBtn{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  padding-left: 0rpx;
+  z-index: 100;
+}

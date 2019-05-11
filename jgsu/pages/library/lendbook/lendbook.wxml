@@ -1,0 +1,30 @@
+<view class='container'>
+  <view class='head'>
+    <view class='head-one'>
+      <text class='head-text'>借阅证号：{{bookUserName}}</text>
+    </view>
+    <view class='head-one'>
+      <text class='head-text'>借阅状态：{{msg}}</text>
+    </view>
+  </view>
+  <view class='body'>
+    <block wx:for='{{bookData}}' wx:for-item="item" wx:key="*this">
+      <view class='body-one'>
+        <view class='body-title'>
+          <text class='body-title-text'>{{item.bookName}}</text>
+        </view>
+        <view class='body-one-row'>
+          <text class='body-one-text'>借阅日期：</text>
+          <text>{{item.lendDate}}</text>
+        </view>
+        <view class='body-one-row'>
+          <text class='body-one-text'>应还日期：</text>
+          <text>{{item.sendDate}}</text>
+        </view>
+        <view class='body-one-row' id='{{item.bookCode}}' data-renewCode='{{item.renewCode}}' bindtap='bookRenew'>
+          <button class='btn' size='mini'>续借</button>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
