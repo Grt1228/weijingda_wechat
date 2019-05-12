@@ -2,6 +2,7 @@
 井冈山大学微信小程序-微井大-小程序端</br>
 </br>
 项目部分截图</br>
+</br>
 <img src="https://gitee.com/uploads/images/2018/0602/175618_1a49f235_1350936.jpeg" height="330" width="190" >
 <img src="https://gitee.com/uploads/images/2018/0602/175638_724330b5_1350936.png" height="330" width="190" >
 <img src="https://gitee.com/uploads/images/2018/0602/175657_45e824dd_1350936.jpeg" height="330" width="190" >
