@@ -27,13 +27,15 @@
 > **微信小程序**：
 
 <img src="https://g-photo.oss-cn-shanghai.aliyuncs.com/gh_e6a721abc69c_430.jpg" height="180" width="180" >
+
 > **QQ小程序**：
 
 <img src="https://g-photo.oss-cn-shanghai.aliyuncs.com/cbdf8e8ea6b70eaa886caa21e5b5759f.png" height="180" width="180" >
 
 ---
 #### **欢迎关注个人微信公众号**：
-![26.6km](https://wjdgood.oss-cn-shanghai.aliyuncs.com/qrcode_for_gh_0c045d619550_430.jpg)
+
+<img src="https://wjdgood.oss-cn-shanghai.aliyuncs.com/qrcode_for_gh_0c045d619550_430.jpg" height="180" width="180" >
 
 </br>
 项目部分截图</br>
