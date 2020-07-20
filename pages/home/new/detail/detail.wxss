@@ -1,0 +1,50 @@
+/* pages/home/new/detail/detail.wxss */
+/**基础风格样式**/
+@import '/towxml/style/main.wxss';
+/**主题配色**/
+@import '/towxml/style/theme/light.wxss';
+
+page {
+  background: #f5f5f5;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  background: #D51007;
+  text-align: center;
+  
+}
+.image{
+ display:flex;
+ justify-content: center;
+ margin-top: 20rpx;
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.title{
+  padding-top: 30rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.time{
+  padding-top: 20rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+  padding-bottom: 20rpx;
+}
+.body{
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background: #ecebeb;
+}

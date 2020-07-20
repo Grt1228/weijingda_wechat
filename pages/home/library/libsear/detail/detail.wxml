@@ -1,0 +1,41 @@
+<view class='container'>
+  <share-button ></share-button>
+  <view class='body'>
+  <block wx:for='{{books}}' wx:for-item="item" wx:key="*this">
+    <view class='one'>
+      <view class='title'>
+        <text>{{item.bookName}}</text>
+      </view>
+      <view class='one-item'>
+        <text class='type'>条码号：</text>
+        <text class='desc'>{{item.bookCode}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>索书号：</text>
+        <text class='desc'>{{item.bookIndexNum}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>藏馆：</text>
+        <text class='desc'>{{item.hideLocation}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>位置：</text>
+        <text class='desc'>{{item.location}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>馆藏状态：</text>
+        <text class='desc'>{{item.hideStatus}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>借阅次数：</text>
+        <text class='desc'>{{item.lendNum}}</text>
+      </view>
+      <view class='item'>
+        <text class='type'>续借次数：</text>
+        <text class='desc'>{{item.renewNum}}</text>
+      </view>
+    </view>
+    </block>
+  </view>
+  <l-toast show="{{show}}" title="{{title}}" icon="{{icon}}" />
+</view>

@@ -1,0 +1,43 @@
+page{
+ background: #f7f7f7;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.head{
+ display: flex;
+ flex-direction: column;
+ margin-top: 40rpx;
+}
+.head-img{
+  width: 120rpx;
+  height: 120rpx;
+  padding: 0 315rpx;
+  padding-top: 30rpx;
+}
+.head-text{
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 25rpx;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.body-input-view{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  margin-right: 33rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+}
+
+.body-button{
+ width: 50%; 
+ margin-top: 15px; 
+ color: #D51007;
+}

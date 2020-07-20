@@ -1,0 +1,22 @@
+page {
+  background: #f7f7f7;
+}
+.container{
+
+}
+
+.card {
+  margin: 20rpx auto !important;
+  border-radius: 20rpx;
+}
+
+.content {
+  margin-top: 10rpx;
+  color: #666;
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}

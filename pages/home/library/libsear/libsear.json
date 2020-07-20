@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "usingComponents": {
+    "l-search-bar": "/dist/search-bar/index",
+    "l-icon": "/dist/icon/index",
+    "l-loadmore": "/dist/loadmore/index",
+    "l-toast": "/dist/toast/index",
+    "share-button": "/components/share-button/index"
+  }
+}

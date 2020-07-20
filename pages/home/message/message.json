@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "usingComponents": {
+    "brickLayout": "plugin://brickLayout/brickLayout",
+    "l-notice-bar": "/dist/notice-bar/index",
+    "l-toast": "/dist/toast/index"
+  }
+}

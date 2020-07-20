@@ -1,0 +1,100 @@
+page{
+  background-color: #f7f7f7;
+}
+.container{
+    margin-top: 30rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+.contain-body{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  border-radius: 20rpx;
+  margin-bottom: 50rpx;
+  background: #D4E4EC;
+}
+.head-container{
+  display: flex;
+  flex-flow: column;
+}
+.cjd{
+   text-align: center;
+   font-size: 80rpx;
+   font-weight: 500;
+   margin-top: 20rpx;
+}
+.score-head{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26rpx 0;
+  
+}
+
+.score-icon{
+  height: 150rpx;
+  width: 150rpx;
+  margin-left: 100rpx
+}
+.score-student-container{
+    flex: 1;
+    padding-left: 40rpx; 
+    color: #666;
+    font-size: 14pt;
+    line-height: 160%;
+}
+.score-student-info{
+  display: flex;
+  flex-flow: column;
+}
+.update-score-view{
+  margin-right: 100rpx;
+  background-color: #03a9f4;
+  border-radius: 3px;
+  height: 50rpx;
+  width: 100rpx;
+  text-align: center;
+}
+.update-score-text{
+  color: #ffffff;
+  font-size: 24rpx;
+}
+.score-body{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  padding: 5rpx 30rpx 15rpx;
+}
+.score-body-one{
+  background:rgb(252, 227, 195);
+  font-size: 11pt;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding: 25rpx 10rpx 20rpx 5rpx;
+  border-radius: 10rpx;
+}
+.score-course-name{
+  padding-left: 10rpx;
+  text-align:center;
+}
+.score-course-learning-time{
+  text-align:center;
+}
+.score-course-score{
+  padding-right: 10rpx;
+  text-align:center;
+}
+.course-name-view{
+  width: 250rpx;
+}
+.course-learning-time-view{
+  width: 250rpx;
+}
+.course-score-view{
+ 
+}

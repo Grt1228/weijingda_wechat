@@ -1,0 +1,29 @@
+<view class="container">
+  <l-notice-bar show="{{true}}" speed="400" front-icon-name="notification" type="roll">{{text}}</l-notice-bar>
+  <share-button></share-button>
+  <l-tabs bind:linchange="clickTab" l-class-header-line="header-line" equal-width="{{true}}" aminmated-for-line="{{true}}">
+    <l-tabpanel bind:linchange="clickTab" wx:for="{{tabData}}" tab="{{item.name}}" key="{{item.type}}" slot="{{item.type}}" wx:key="{{item.type}}" data-current="{{item.type}}">
+      <l-loadmore show="{{show}}" type="{{type}}">
+        <block wx:for='{{currentGoodType=="1" ? foundGoodData : lostGoodData}}' wx:for-item="item" wx:key="*this">
+          <view class="card-view" bindtap='detail' data-id='{{item.lostGoodId}}' slot="content" >
+            <l-card type="primary" l-class="card" l-img-class="right-card" image="{{item.image==null ? '/images/home/lostfound/def.png': item.image}}" title="{{item.goodTitle}}">
+              <view class="content">
+                {{item.goodDetail}}
+              </view>
+            </l-card>
+          </view>
+        </block>
+      </l-loadmore>
+    </l-tabpanel>
+  </l-tabs>
+
+  <view class='auth-view'>
+    <button class='authBtn' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+      <image src='/images/home/message/wechat.png' class='wechat-img'></image>
+    </button>
+  </view>
+  <view class='add-view' bindtap='addMessage'>
+    <button class='infoBtn'>+</button>
+  </view>
+  <l-toast/>
+</view>

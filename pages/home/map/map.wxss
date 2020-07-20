@@ -1,0 +1,11 @@
+
+page {
+  background: #f7f7f7;
+}
+.container{
+  
+}
+
+.map{
+  padding: 0 30rpx;
+}

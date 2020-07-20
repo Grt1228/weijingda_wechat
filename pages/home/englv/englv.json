@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "l-button": "/dist/button/index"
+  }
+}

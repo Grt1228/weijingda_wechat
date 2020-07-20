@@ -1,0 +1,8 @@
+{
+    "enablePullDownRefresh": false,
+    "navigationBarBackgroundColor": "#D51007",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+      "share-button": "/components/share-button/index"
+    }
+}

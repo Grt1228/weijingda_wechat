@@ -1,0 +1,49 @@
+<view class='container'>
+
+  <view class='header'>
+    <view wx:if="{{canIUse}}">
+      <view class="content-item-nick-row content-item-nick">
+        <l-avatar open-data="{{['userAvatarUrl','userNickName']}}" placement="bottom"  />
+      </view>
+    </view>
+    <view wx:else>
+      <view wx:if="{{canIUse}}">
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+          授权登录
+        </button>
+      </view>
+      <view wx:else>请升级微信版本</view>
+    </view>
+  </view>
+
+  <view class='body'>
+    <content-card class="content" name="我的中心">
+      <view class="view-container">
+        <l-grid show-border="{{true}}" row-num="4" show-border="true">
+          <l-grid-item wx:for="{{grids2}}" bind:lintap="clickGrids" wx:key="{{index}}" key="{{index}}" slot="{{index}}" data-text="{{item.text}}" data-id="{{item.id}}" data-level="{{item.level}}" l-grid-item="grid-item">
+            <l-icon name="{{item.image}}" />
+            <view class="text">{{item.text}}</view>
+          </l-grid-item>
+        </l-grid>
+      </view>
+    </content-card>
+  </view>
+<view class="share">
+  <!-- <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Talelin/lin-ui">
+      <text class='doc-txt'>Github</text>
+      <text class='address'>https://github.com/Talelin/lin-ui</text>
+    </view>
+  </view> -->
+  <official-account class="account"></official-account>
+  <image bindtap='onImage' src='/images/mypage/26.6km.jpg' class='code'></image>
+  <text class='desc'>关注我的个人公众号</text>
+  <text class='desc'>点击图片可保存二维码识别</text>
+</view>
+  <l-popup show="{{showPop}}" content-align="center" > 
+    <view class="center" bindtap='copyLink' data-link="QQ群：191581556" >
+      <text>QQ群：191581556(点击复制)\n邮箱：rtguo1228@qq.com\n</text>
+    </view>
+  </l-popup>
+</view>

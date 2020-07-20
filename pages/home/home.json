@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "navi-card": "/components/navi-card/index",
+    "l-card": "/dist/card/index",
+    "share-button": "/components/share-button/index",
+    "tip": "/components/tip/index"
+  }
+}

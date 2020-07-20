@@ -1,0 +1,41 @@
+<view class='container'>
+  <view class='form-view'>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class='imput-view'>
+      <l-input label="我的称呼" name="adderName" tipType="message" rules="{{requiredRules}}"  required="true" clear="{{true}}" placeholder="建议使用昵称" label-width="170" clear="{{true}}" />
+        <l-input label="发布标题" name="goodTitle"  tipType="message" rules="{{requiredRules}}"  required="true" clear="{{true}}" placeholder="标题描述" label-width="170" clear="{{true}}" />
+        <l-input label="联系方式" name="adderMobile"  tipType="message" rules="{{requiredRules}}" required="true" clear="{{true}}" placeholder="不建议使用手机号码" label-width="170" clear="{{true}}" />
+
+        <l-input label="失招位置"  name="goodPosition" clear="{{true}}" placeholder="物品大概在哪丢失（捡到）？" label-width="170" clear="{{true}}" />
+      </view>
+      <view class="group-label">
+        <text>失招类型</text>
+        <l-radio-group l-class="l-radio-group" name="goodType" placement="row" >
+          <l-radio l-class="l-radio" color="#666666" placement="left" value="丢失" />
+          <l-radio l-class="l-radio" color="#666666" placement="left" value="捡到" />
+        </l-radio-group>
+      </view>
+      <view class='textarea-view'>
+        <l-textarea l-class="textarea-class" name="goodDetail" placeholder="详细的物品描述信息..." auto-height="{{true}}" />
+      </view>
+      <view class='image-view'>
+        <text>图片信息</text>
+        <l-image-picker class='image' name="imageUrl" bind:linchange="chooseImage" urls="{{imageUrl}}" count="1" />
+      </view>
+
+      <view class="button-view">
+        <button width="300" height="100" form-type="submit" type='warn' shape="semicircle" >发布信息</button>
+      </view>
+    </form>
+  </view>
+
+  <l-toast/>
+  <l-message content="{{content}}" type="{{type}}" duration="{{ duration}}" show="{{show}}" />
+  <l-dialog 
+  show="{{dialogFlag}}"
+  type="confirm"  
+  show-title="{{false}}"
+  bind:linconfirm="onConfirmTap"
+  bind:lincancel="onCancelTap"
+  content="确定发布信息？" ></l-dialog>
+</view>

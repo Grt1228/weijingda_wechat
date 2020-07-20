@@ -1,0 +1,16 @@
+<!--使用towxml-->
+<import src="/towxml/entry.wxml"/>
+<view class='container'>
+  <share-button ></share-button>
+  <view class='head'>
+    <view class='image'>
+      <image src='/images/home/new/new.png' class='img'></image>
+    </view>
+    <text class='title'>{{oneData.title}}</text>
+    <text class='time'>{{oneData.newdate}}</text>
+  </view>
+
+  <view class='body'>
+    <template is="entry" data="{{...article}}"/>
+  </view>
+</view>

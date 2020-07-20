@@ -1,0 +1,38 @@
+page {
+  background: #f7f7f7;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.calendar-view{
+  
+}
+.info-view{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.text-view{
+  margin-top: -40rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.info{
+  font-size: 26rpx;
+}
+.board {
+    background-color: #dddcff;
+    color: white;
+}
+.header {
+    font-size: small; /*修改了标题文字和按钮的大小*/
+    color: #605eac;   /*修改了标题文字和按钮的颜色*/
+}
+.calendar {
+    background-color: #eeedff;
+    padding-top: 10px;
+}

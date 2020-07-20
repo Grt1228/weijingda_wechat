@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="header">
+    <text class='header-desc' decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微井大删除之前的证书查询功能，改用更加权威的方式进行各类证书信息的查询——中国政务服务平台
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国政务服务平台是由国务院办公厅主办的首个全国性政务服务微信小程序。
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过小程序可以快速查询学历学位证书、四六级考试成绩、普通话测试证书，不止这些通过它可以查询200多项政务服务。点击下面的跳转按钮可以直接跳转到中国政务服务平台微信小程序，快去试试把。
+    </text>
+  </view>
+  <view class='btn_view'>
+    <l-button type="success" width="300" height="100" size='large' shape="semicircle" bindtap='navToC'>跳转</l-button>
+  </view>
+</view>

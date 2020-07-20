@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "usingComponents": {
+    "l-notice-bar": "/dist/notice-bar/index",
+    "l-toast": "/dist/toast/index",
+    "share-button": "/components/share-button/index"
+  }
+}

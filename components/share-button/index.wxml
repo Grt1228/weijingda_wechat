@@ -1,0 +1,8 @@
+  <view wx:if="{{share}}" class="share-container" >
+    <l-button special="true" open-type="share" >
+      <!-- 此处是插槽自定义内容 -->
+      <view class='share-box'>
+        <l-icon name="share" color='#D51007' />
+      </view>
+    </l-button>
+  </view>

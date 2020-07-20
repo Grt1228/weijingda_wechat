@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-textarea": "/dist/textarea/index",
+    "l-button": "/dist/button/index",
+    "l-message": "/dist/message/index"
+  }
+}

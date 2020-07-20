@@ -1,0 +1,63 @@
+/* pages/message/message.wxss */
+page {
+  background: #f7f7f7;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.body{
+  margin-top: 20rpx;
+}
+
+.add-view{
+  position: fixed;
+  right: 60rpx;
+  bottom: 120rpx;
+  background-color: #EEEEEE;
+  border-radius:60rpx;
+  width:100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height:100rpx;
+  opacity: 0.8;
+  font-weight: 50;
+}
+.infoBtn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  z-index: 100;
+}
+.infoBtn::after{
+  border: none;
+}
+
+.auth-view{
+  position: fixed;
+  right: 60rpx;
+  bottom: 270rpx;
+  background-color: rgb(0, 200, 0);
+  border-radius:60rpx;
+  width:100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height:100rpx;
+  opacity: 0.8;
+  font-weight: 50;
+}
+
+.wechat-img{
+  width:100rpx;
+  height: 100rpx;
+  margin-left: -27rpx;
+}
+.authBtn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  z-index: 100;
+}
+.infoBtn::after{
+  border: none;
+}

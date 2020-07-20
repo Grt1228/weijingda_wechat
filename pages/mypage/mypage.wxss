@@ -1,0 +1,113 @@
+page {
+  background: #f7f7f7;
+}
+.container{
+    
+}
+.header{
+  align-items: center
+}
+
+.bottom {
+    border-radius: 80rpx;
+    margin: 110rpx 100rpx;
+    font-size: 35rpx;
+}
+
+.text {
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 30rpx;
+  margin-top: 9rpx;
+}
+
+.grid-item {
+  height: 200rpx;
+}
+
+.center {
+  height: 200rpx;
+  width: 500rpx;
+  background: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  color: #555;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+}
+
+.content-item-nick-row {
+  width: 240rpx;
+  height: 240rpx;
+  box-shadow: 0px 4rpx 16rpx 0px rgba(160, 160, 160, 0.2);
+  border-radius: 8rpx;
+  margin-left: 255rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+
+.content-item-nick {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address-container {
+  width: 690rpx;
+  margin: 0 auto 2rpx auto;
+  height: 142rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+}
+
+.dot {
+  width: 24rpx;
+  height: 24rpx;
+  border-radius: 50%;
+  background-color: #3963bc;
+  margin-left: 40rpx;
+}
+
+.doc-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.doc-txt {
+  color: #8c98ae;
+  font-size: 24rpx;
+}
+
+.address {
+  font-size: 28rpx;
+  color: #596c8e;
+}
+
+.code {
+  width: 210rpx;
+  height: 210rpx;
+  margin: 10rpx auto 30rpx auto;
+}
+
+.desc {
+  color: #8c98ae;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+.account{
+  width: 690rpx;
+  margin-top: 30rpx;
+}

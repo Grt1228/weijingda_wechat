@@ -1,0 +1,15 @@
+{
+  "navigationBarBackgroundColor": "#D51007",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-grid-item": "/dist/grid-item/index",
+    "l-grid": "/dist/grid/index",
+    "l-icon": "/dist/icon/index",
+    "l-popup": "/dist/popup/index",
+    "content-title": "/components/content-title/index",
+    "content-card": "/components/content-card/index",
+    "l-action-sheet": "/dist/action-sheet/index",
+    "l-button": "/dist/button/index",
+    "l-avatar": "/dist/avatar/index"
+  }
+}

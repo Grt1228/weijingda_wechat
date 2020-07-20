@@ -1,0 +1,22 @@
+.share-container{
+  position: fixed;
+  right: 40rpx;
+  bottom: 60rpx;
+  z-index: 2;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  box-shadow:0px 3px 8px 0px rgba(155,193,185,0.5);
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+}
+
+.share-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 8px 0px rgba(220, 220, 220, 0.5);
+}

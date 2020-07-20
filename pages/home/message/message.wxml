@@ -1,0 +1,23 @@
+<view class='container'>
+  <l-notice-bar show="{{true}}" front-icon-name="notification" type="roll" >{{text}}</l-notice-bar>
+  <view class='body'>
+    <brickLayout dataSet="{{dataSet}}"
+     option="{{brick_option}}" 
+     bind:tapCard="tapCard" 
+     bind:tapLike="handleLike" 
+     bind:tapUser="handleUserEvent" 
+     bind:onCardExpanded="handleExpand" />
+  </view>
+
+  <view class='auth-view' >
+    <button class='authBtn' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+      <image src='/images/home/message/wechat.png' class='wechat-img'></image>
+    </button>
+  </view>
+  <view class='add-view' bindtap='addMessage'>
+    <button class='infoBtn' >+</button>
+  </view>
+
+  <l-toast show="{{show}}" title="{{title}}" icon="{{icon}}" />
+
+</view>

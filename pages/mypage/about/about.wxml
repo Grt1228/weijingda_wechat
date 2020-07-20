@@ -1,0 +1,31 @@
+<view class='container'>
+  <view class='head'>
+    <image class='head-img' src='/images/mypage/logo.png'></image>
+    <text class='head-name'>微井大</text>
+    <text class='head-info'>微井大为井冈山大学学生提供便捷教务查询服务。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>数据来源：</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;本程序数据来自教务系统，以及井冈山大学官网</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>技术支持：</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;井冈山大学电信学院</text>
+  </view>
+  <!--<view class='body'>
+    <text class='body-title'>联系方式:</text>
+     <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;微信：g453701735</text> 
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;邮箱：453701735@qq.com</text>
+  </view>-->
+  <view class='body'>
+    <text class='body-title'>说明:</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;功能会不断完善。如果你在使用过程中有问题或者建议，可以联系我，或者进行意见反馈。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>AppId:</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;欢迎公众号关联微井大微信小程序，微井大AppId：wx569af449b808a5b1 。</text>
+  </view>
+  <view class='app-info'>
+    <text class='app-info-text'>微井大®2019</text>
+  </view>
+</view>

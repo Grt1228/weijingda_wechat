@@ -1,0 +1,26 @@
+<view class='container'>
+  <view class='head'>
+    <image class='head-img' src='/images/mypage/logo.png'></image>
+    <text class='head-name'>微井大</text>
+    <text class='head-info'>微井大为井冈山大学学生提供便捷教务查询服务。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>教务查询：</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;如果需要查询教务相关信息，需要输入学号，密码以及验证码进行查询。教务信息来自教务系统官方，微井大只做数据展示。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>图书馆：</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;微井大提供图书馆检索功能，以及个人借阅信息查询，一键续借功能（续借好像只可以续借一次）功能。图书馆相关数据来自井冈山大学图书馆，微井大只做数据展示功能。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>转发分享：</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;如果页面存右下角存在分享按钮可以直接点击分享按钮进行分享操作。如果页面没有分享按钮可以点击右上角[...]进行好友分享。</text>
+  </view>
+  <view class='body'>
+    <text class='body-title'>公众号关联:</text>
+    <text class='body-text' decode="{{true}}">·&nbsp;&nbsp;&nbsp;可以在微信公众号后台进行关联微信小程序绑定操作，欢迎，微井大AppId：wx569af449b808a5b1 。</text>
+  </view>
+  <view class='app-info'>
+    <text class='app-info-text'>微井大®2019</text>
+  </view>
+</view>

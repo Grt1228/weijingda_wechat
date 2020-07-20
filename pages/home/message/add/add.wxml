@@ -1,0 +1,21 @@
+<view class='container'>
+  <view class='head'>
+    <image class='head-img' src='/images/home/message/message.png'></image>
+    <text class='head-text'>有什么不开心的说出来，让大家开心一下</text>
+  </view>
+  <view class='body'>
+    <form bindsubmit="formSubmit">
+      <view class='body-input-view'>
+        <text class='body-text'>我有话说：</text>
+        <textarea class='body-textarea' name='content' placeholder-style='font-size: 30rpx;font-weight: 800;' show-confirm-bar='true' maxlength='300' placeholder='300字内说完' ></textarea>
+      </view>
+      <view class='body-input-view'>
+        <text class='body-text'>匿名：</text>
+        <view class="body-view">
+          <switch bindchange="switchChange" />
+        </view>
+      </view>
+      <button class='body-button' formType="submit">提交</button>
+    </form>
+  </view>
+</view>

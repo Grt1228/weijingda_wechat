@@ -1,0 +1,21 @@
+<view class='container'>
+  <share-button ></share-button>
+  <view class='calendar-view'>
+    <calendar bindprevMonth="prev" bindnextMonth="next" show-more-days='false' weeks-type='cn' active-type='rounded' days-color="{{days_style}}" calendar-style="calendar" header-style="header" board-style="board" />
+  </view>
+  <view class='info-view'>
+    <content-card l-content="content"  wx:for="{{calendarDescData}}" wx:for-item="item" wx:key="*this" name='{{item.calendarTitle}} ：'>
+      <view class='text-view'>
+        <text class='info' decode="{{true}}">
+        {{item.calendarInfo}}
+        </text>
+      </view>
+    </content-card>
+  </view>
+
+  <l-toast
+    show="{{show}}"
+    title="{{title}}"
+    icon="{{icon}}"
+  />
+</view>

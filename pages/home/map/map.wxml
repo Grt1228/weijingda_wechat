@@ -1,0 +1,22 @@
+
+<view class="container">
+  <share-button ></share-button>
+  <l-tabs bind:linchange="clickTab" l-class-header-line="header-line" equal-width="{{false}}" scrollable aminmated-for-line="{{true}}" >
+    <l-tabpanel wx:for="{{groupData}}" tab="{{item.mapGroupName}}" key="{{item.mapGroupId}}" slot="{{item.mapGroupId}}" wx:key="{{item.mapGroupId}}" data-current="{{item.mapGroupId}}">
+      <view class="map" >
+        <map  id='jgsuMap' 
+              scale='15' 
+              markers='{{markers}}' 
+              polyline='{{polyline}}' 
+              style="width: 100%; height: 800rpx;" 
+              longitude='115.030375' 
+              latitude='27.111852' 
+              show-location="true"
+              wx:if="{{mapStatus}}"
+              show-compass="true"
+              enable-satellite="true"
+        ></map>
+      </view>
+    </l-tabpanel>
+  </l-tabs>
+</view>

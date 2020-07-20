@@ -1,0 +1,25 @@
+<view>
+  <share-button ></share-button>
+  <view class='header'>
+    <l-search-bar placeholder="输入图书名称检索" bind:linconfirm="search"></l-search-bar>
+  </view>
+  <l-loadmore show="{{show}}" type="{{type}}">
+    <view class="section-content" slot="content" >
+      <block wx:for='{{books}}' wx:for-item="item" wx:key="*this">
+        <view class="detail-navi">
+          <view class="detail-left">
+            <image src="/images/icon/library.png" class="detail-icon" />
+            <view class="detail-content">
+              <text class="detail-navi-name">{{index+1}}：{{item.bookName}}</text>
+              <text class="detail-navi-desc">{{item.bookAuthor}}</text>
+              <text class="detail-navi-desc">{{item.bookPress}}</text>
+            </view>
+          </view>
+          <image class="navi-button" src="/images/home/lib/detail.png" data-bookid="{{item.bookId}}" data-title="{{item.bookName}}" bindtap='detail' />
+        </view>
+      </block>
+    </view>
+  </l-loadmore>
+
+  <l-toast show="{{show}}" title="{{title}}" icon="{{icon}}" />
+</view>

@@ -1,0 +1,13 @@
+<view class='container'>
+  <share-button ></share-button>
+  <view class='body'>
+    <view class='one' bindtap='navPage' data-type="0">
+      <text>馆藏检索</text>
+    </view>
+
+    <view class='one' bindtap='navPage' data-type="1">
+      <text>借阅查询</text>
+      <text>一键续借</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<view class="container">
+  <l-notice-bar show="{{true}}" front-icon-name="notification" type="roll">轻触电话号码可进行复制，触发图标可直接拨打。</l-notice-bar>
+  <share-button ></share-button>
+  <view class="header">
+    <image class="header-logo" src="/images/home/phone/phone.png"></image>
+    <view class="header-desc">
+      校园通讯录为井大师生提供给便捷的服务，快速找到需要的服务。请勿滥用电话，希望广大师生踊跃提供校园公共电话。我的-添加号码，进行相关操作。
+    </view>
+  </view>
+  <view class='body'>
+    <view class='tabs-container'>
+      <l-tabs active-key="0" bind:linchange="kindToggle" placement="top" aminmated="true" l-class-line="line-tabs" aminmated-for-line="{{true}}" has-line="true">
+        <l-tabpanel tab="校级" wx:for="{{phoneType}}" tab="{{item.tab}}" key="{{item.phoneLevel}}" slot="{{item.phoneLevel}}" wx:key="{{item.phoneLevel}}">
+          <block wx:for-items="{{phoneData}}" wx:for-item="item" wx:key="*item">
+            <view class='phone-container'>
+              <view class='dot' />
+              <view class='one-phone-container' bindtap='copyLink' data-link="{{item.phoneNumber}}">
+                <text class='phone-text'>{{item.phoneName}}</text>
+                <text class='phone-num'>{{item.phoneNumber}}</text>
+              </view>
+              <view class="img-container" bindtap='callPhone' data-link="{{item.phoneNumber}}">
+                <image class='call-img' src="/images/home/phone/call.png"></image>
+              </view>
+            </view>
+          </block>
+        </l-tabpanel>
+      </l-tabs>
+    </view>
+  </view>
+</view>

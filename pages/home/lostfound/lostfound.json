@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#D51007",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-tabs": "/dist/tabs/index",
+    "l-tabpanel": "/dist/tabpanel/index",
+    "l-card": "/dist/card/index",
+    "share-button": "/components/share-button/index",
+    "l-notice-bar": "/dist/notice-bar/index",
+    "l-toast": "/dist/toast/index",
+    "l-loadmore": "/dist/loadmore/index"
+  }
+}

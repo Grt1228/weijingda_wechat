@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/home/calendar/calendar",
+    "pages/home/library/library",
+    "pages/home/library/libsear/libsear",
+    "pages/home/library/libsear/detail/detail",
+    "pages/home/library/libself/libself",
+    "pages/home/library/libself/lendbook/lendbook",
+    "pages/home/phone/phone",
+    "pages/home/map/map",
+    "pages/home/new/new",
+    "pages/home/new/detail/detail",
+    "pages/home/message/message",
+    "pages/home/message/add/add",
+    "pages/home/score/score",
+    "pages/home/test/test",
+    "pages/home/englv/englv",
+    "pages/home/course/course",
+    "pages/home/lostfound/lostfound",
+    "pages/home/lostfound/add/add",
+    "pages/home/lostfound/detail/detail",
+    "pages/mypage/mypage",
+    "pages/mypage/idea/idea",
+    "pages/mypage/about/about",
+    "pages/mypage/help/help",
+    "pages/mypage/phone/phone",
+    "components/share-button/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微井大",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#bbbbbb",
+    "selectedColor": "#D51007",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tab/home.png",
+        "selectedIconPath": "images/tab/home_fill.png"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的",
+        "iconPath": "images/tab/my.png",
+        "selectedIconPath": "images/tab/my_fill.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "l-toast": "/dist/toast/index",
+    "l-message": "/dist/message/index"
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    },
+    "brickLayout": {
+      "version": "0.2.0",
+      "provider": "wx3c042630f3cdc175"
+    }
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx2eec5fb00157a603"
+  ]
+}

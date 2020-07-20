@@ -1,0 +1,13 @@
+{
+    "navigationBarBackgroundColor": "#D51007",
+  "usingComponents": {
+    "l-toast": "/dist/toast/index",
+    "l-message": "/dist/message/index",
+    "l-input": "/dist/input/index",
+    "l-dialog": "/dist/dialog/index",
+    "l-radio-group": "/dist/radio-group/index",
+    "l-radio": "/dist/radio/index",
+    "l-textarea": "/dist/textarea/index",
+    "l-image-picker": "/dist/image-picker/index"
+  }
+}

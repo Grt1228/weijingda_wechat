@@ -1,0 +1,82 @@
+page {
+  background: #f7f7f7;
+}
+
+.container{
+
+}
+
+.header {
+  padding: 60rpx;
+  text-align: center;
+}
+
+.header-logo {
+  width: 86rpx;
+  height: 86rpx;
+}
+.header-desc {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 28rpx;
+}
+
+.body{
+  
+}
+
+.tabs-container{
+  background-color: #fff;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px -4rpx 16rpx 0px rgba(148, 163, 178, 0.05);
+  border-radius: 20rpx 20rpx 0px 0px;
+  border-bottom: 20rpx solid #f7f7f7;
+  margin-left: 5rpx;
+}
+
+.phone-container {
+  width: 600rpx;
+  margin: 20rpx 60rpx 10rpx 60rpx;
+  height: 142rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 20rpx ;
+}
+
+.dot {
+  width: 24rpx;
+  height: 24rpx;
+  border-radius: 50%;
+  background-color: #D51007;
+  margin-left: 80rpx;
+}
+
+.one-phone-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80rpx;
+  width: 200rpx
+}
+
+.phone-text {
+  color: #8c98ae;
+  font-size: 24rpx;
+  font-weight: 800;
+}
+
+.phone-num {
+  font-size: 28rpx;
+  color: #596c8e;
+  margin-top: 6rpx;
+}
+.img-container{
+  margin-left: 60rpx;
+}
+.call-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+

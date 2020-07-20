@@ -1,0 +1,36 @@
+page {
+  background: #f7f7f7;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60rpx;
+}
+
+.header {
+  font-size: 28rpx;
+  height: 500rpx;
+  width: 750rpx;
+  font-weight: 300;
+  color: rgb(231, 231, 231);
+  line-height: 36rpx;
+  background: #D51007;
+  border-radius: 0 0 20rpx 20rpx;
+  box-shadow: 0px 4px 20px 0px rgba(0, 49, 107, 0.3);
+  box-sizing: border-box;
+}
+
+.header-desc {
+  position: absolute;
+  z-index: 2;
+  font-size: 28rpx;
+  margin: 50rpx 40rpx 0 40rpx;
+  line-height: 48rpx;
+}
+.btn_view{
+  align-items: center;
+  margin-left: 220rpx;
+  margin-top: 150rpx;
+}

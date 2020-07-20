@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "share-button": "/components/share-button/index"
+  },
+  "navigationBarBackgroundColor": "#D51007",
+  "navigationBarTextStyle": "white"
+}

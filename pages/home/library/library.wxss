@@ -1,0 +1,30 @@
+page {
+  background: #f7f7f7;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one {
+  flex-direction: column;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen;
+  margin-top: 50rpx;
+  width: 500rpx;
+  height: 200rpx;
+  box-shadow: 0px 4rpx 16rpx 0px rgba(140, 160, 181, 0.2);
+  border-radius: 12rpx;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.one text{
+  color: #ffffff
+}

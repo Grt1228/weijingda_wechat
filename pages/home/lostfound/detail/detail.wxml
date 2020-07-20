@@ -1,0 +1,43 @@
+<view class='container'>
+  <share-button></share-button>
+  <l-notice-bar show="{{true}}" front-icon-name="notification" type="roll" >{{text}}</l-notice-bar>
+  <view class='body'>
+    <view class='one'>
+      <view class="image-view">
+        <swiper indicator-dots='true' autoplay='true' interval='5000'>
+          <swiper-item class='swiper-item'>
+            <image src="{{goodData.image==null ? '/images/home/lostfound/def.png': goodData.image }}" bindtap='showImage'></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class='info-view'>
+        <view class="info">
+          <image class='img' src='/images/home/lostfound/name.png'></image>
+          <text class='text'>{{goodData.adderName}}</text>
+        </view>
+        <view class="divLine"></view>
+        <view class="info" bindtap='copyLink' data-link="{{goodData.adderMobile}}">
+          <image class='img' src='/images/home/lostfound/phone.png'></image>
+          <text class='text'>{{goodData.adderMobile}}</text>
+        </view>
+
+        <view class="divLine"></view>
+        <view class="info">
+          <image class='img' src='/images/home/lostfound/position.png'></image>
+          <text class='text'>{{goodData.goodPosition}}</text>
+        </view>
+        <view class="divLine"></view>
+        <!--<view class="info">
+          <image class='img' src='/images/home/lostfound/status.png'></image>
+          <text class='text'>未找到</text>
+        </view>
+        <view class="divLine"></view>-->
+        <view class="detail-info">
+          <text class='detail-text'>{{goodData.goodDetail}}</text>
+        </view>
+        <view class="divLine"></view>
+      </view>
+    </view>
+  </view>
+  <l-toast show="{{show}}" title="{{title}}" icon="{{icon}}" />
+</view>

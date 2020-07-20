@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='head'>
+    <image class='head-img' src='/images/mypage/idea/idea.png'></image>
+    <text class='head-text'>反馈意见</text>
+  </view>
+  <view class='body'>
+    <form bindsubmit="formSubmit">
+      <view class='body-input-view'>
+        <l-textarea indicator="{{false}}" name='ideaDetail' placeholder="说说你的想法吧..."/>
+      </view>
+      <view class='body-input-view'>
+        <l-textarea indicator="{{false}}" name='linkType' auto-height="true" placeholder="QQ/微信/邮箱"/>
+      </view>
+      <button class='body-button' formType="submit">提交</button>
+    </form>
+  </view>
+
+  <l-message  content="{{content}}" 
+              type="{{type}}" 
+              duration="{{ duration}}" 
+              show="{{show}}" />
+  <l-toast show="{{show}}" title="{{title}}" icon="{{icon}}" />
+
+</view>

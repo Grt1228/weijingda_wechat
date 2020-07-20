@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+  <tip></tip>
+  <share-button ></share-button>
+  <view class="header">
+    <swiper indicator-dots='true' autoplay='true' interval='5000'>
+      <block wx:for="{{swiperImage}}" wx:for-item="item" wx:key="*this">
+        <swiper-item class='swiper-item'>
+          <image src='{{item.imageUrl}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="main">
+    <navi-card
+      wx:for="{{naviConfigs.baseConfig}}"
+      wx:for-item="naviConfig"
+      wx:key="index"
+      data-idx="{{index}}"
+      title="{{naviConfig.title}}"
+      icon="{{naviConfig.icon}}"
+      data-title="{{naviConfig.title}}"
+      data-navigateMark="{{naviConfig.navigateMark}}"
+      data-level="{{naviConfig.level}}"
+      bindtap="onNaviCard"
+    />
+  </view>
+</view>

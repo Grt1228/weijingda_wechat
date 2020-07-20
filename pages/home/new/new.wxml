@@ -1,0 +1,14 @@
+<view>
+  <block wx:for="{{newData}}" wx:for-item="item" wx:key="*this">
+    <!-- ...展开平铺data数据对象 -->
+    <view class='container'>
+
+      <l-card type="cover" bindtap="showDetail" l-class="card" data-newCreater="{{item.newCreater}}" data-newId="{{item.newId}}" data-newDate="{{item.newDate}}" image="{{item.imageUrl}}"
+        data-title="{{item.newTitle}}" title="{{item.newTitle}}">
+        <view class="content">
+          {{item.newDetail}}
+        </view>
+      </l-card>
+    </view>
+  </block>
+</view>
